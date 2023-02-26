@@ -1,0 +1,19 @@
+.Category{
+    display: flex;
+    justify-content: center;
+}
+
+.categoriesContainer>
+.categorySpan{
+    background-color: aliceblue;
+    margin: 6px;
+    border: 2px solid goldenrod;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: goldenrod;
+}
+
+.selected{
+    background-color: blue;
+}

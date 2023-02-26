@@ -1,0 +1,17 @@
+.TypeCategories{
+    text-align: center;
+    margin: 30px;
+}
+
+#types{
+    background-color: aliceblue;
+    border: 2px solid goldenrod;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: rgb(100, 94, 94);
+}
+
+#types:focus{
+    outline: none;
+}

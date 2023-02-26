@@ -1,0 +1,72 @@
+.searchBarFeildSection{
+    text-align: center;
+}
+
+.searchBarFeild{
+    background-color: aliceblue;
+    border: 2px solid goldenrod;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: rgb(100, 94, 94);
+    
+}
+
+.searchBarFeild:focus{
+    outline: none;
+}
+
+.menuBarSection{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuContainer{
+    display: flex;
+    width: 500px;
+    height: 140px;
+    padding: 6px;
+    background-color: rgb(25, 31, 36);
+    margin: 20px;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+}
+
+.dishImage{
+    height: 125px;
+    width: 200px;
+    border-radius: 6px;
+    border: 2px solid goldenrod;
+    margin-right: 6px;
+}
+
+.textContainer{
+    overflow-y: scroll;
+}
+
+.subHeading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dishName{
+    color: goldenrod;
+}
+
+.dishCost{
+    color: goldenrod;
+    margin-right: 6px;
+}
+
+hr{
+    color: gainsboro;
+    margin: 2px;
+    border-radius: 12px;
+}
+
+.dishInfoContainer{
+    margin-top: 6px;
+    color: gainsboro;
+}
